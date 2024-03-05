@@ -1,0 +1,13 @@
+prefix=D:/VSCODE/ATS/venv/Library
+exec_prefix=D:/VSCODE/ATS/venv/Library
+libdir=D:/VSCODE/ATS/venv/Library/lib
+sharedlibdir=D:/VSCODE/ATS/venv/Library/lib
+includedir=D:/VSCODE/ATS/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
